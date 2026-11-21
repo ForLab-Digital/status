@@ -1,31 +1,29 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: ForLab-Digital
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Geo API
+    url: https://api.forlab.io/geo/health
+    __dangerous__body_down_if_text_missing: "ok"
+  - name: Geo API nearby (origin)
+    url: https://geo.forlab.io/health
+    __dangerous__body_down_if_text_missing: "ok"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.forlab.io
+  name: forlab status
+  introTitle: "**forlab status**"
+  introMessage: >
+    Public uptime and response-time history for the ForLab Geo API edge and
+    its nearby origin. Data is collected automatically from GitHub Actions in
+    the [status repository](https://github.com/ForLab-Digital/status). For
+    product details see the
+    [Geo API project page](https://forlab.io/en/projects/geo-api).
   navbar:
     - title: Status
       href: /
+    - title: Geo API
+      href: https://forlab.io/en/projects/geo-api
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+      href: https://github.com/ForLab-Digital/status
