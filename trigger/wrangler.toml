@@ -1,0 +1,12 @@
+# Deploy: CLOUDFLARE_API_TOKEN=<Workers edit token> npx wrangler deploy (from this folder).
+# Token: npx wrangler secret put GITHUB_TOKEN. Free plan: cron triggers cost nothing.
+name = "forlab-status-trigger"
+main = "worker.js"
+compatibility_date = "2026-11-23"
+workers_dev = false
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[observability]
+enabled = true
