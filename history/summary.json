@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.forlab.io.ico",
     "slug": "geo-api",
     "status": "up",
-    "uptime": "99.94%",
-    "uptimeDay": "99.63%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.94%",
-    "time": 470,
-    "timeDay": 404,
-    "timeWeek": 470,
-    "timeMonth": 470,
-    "timeYear": 470,
-    "dailyMinutesDown": {
-      "2026-11-27": 5
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 466,
+    "timeDay": 405,
+    "timeWeek": 466,
+    "timeMonth": 466,
+    "timeYear": 466,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Geo API nearby (origin)",
@@ -25,18 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/geo.forlab.io.ico",
     "slug": "geo-api-nearby-origin",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 555,
-    "timeDay": 505,
-    "timeWeek": 555,
-    "timeMonth": 555,
-    "timeYear": 555,
-    "dailyMinutesDown": {
-      "2026-11-27": 0
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 560,
+    "timeDay": 557,
+    "timeWeek": 560,
+    "timeMonth": 560,
+    "timeYear": 560,
+    "dailyMinutesDown": {}
   }
 ]
